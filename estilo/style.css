@@ -81,6 +81,7 @@ div.formulario form input {
 }
 div.formulario div.email, div.senha {
     height: 40px;
+    width: 40vw;
     background-color: var(--cor2);
     border-radius: 10px;
     margin-bottom: 10px;
