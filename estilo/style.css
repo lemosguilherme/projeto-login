@@ -1,9 +1,88 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@500&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 :root {
     --cor1: #49a09d;
     --cor2: #5f2c82;
 }
 body {
     background-color: var(--cor2);
+}
+main {
+    height: 100vh;
+}
+section {
+    height: 100vh;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.imagem{
+    background-color: black;
+    height: 200px;
+    width: 250px;
+    background-image: url("../imagens/predio2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div.formulario {
+    background-color: white;
+    height: 400px;
+    width: 250px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 0px;
+
+}
+h1 {
+    font-family: 'Unna', serif;
+}
+p {
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 0.9em;
+}
+div.formulario form input {
+    border-radius: 5px;
+    block-size: 30px;
+    
+}
+div.formulario form {
+    height: 40px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+div.formulario > div >input {
+    
+    background-color: var(--cor1);
+    block-size: 50px;
+    inline-size: 200px;
+    border-radius: 10px;
+    color: white;
+    
+}
+div.formulario > div > a {
+    text-decoration: none;
+    color: var(--cor1);
 }
