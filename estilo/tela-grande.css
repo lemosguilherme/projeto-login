@@ -2,22 +2,25 @@
 
 @media screen and (min-width: 992px) {
     div.imagem {
-        height: 40vh;
-        width: 25vw;
+        height: 400px;
+        width: 400px;
         border-radius: 0px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
     div.formulario {
-        width: 40vw;
-        height: 40vh;
+        height: 400px;
+        width: 600px;
         border-radius: 0px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         
     }
+    div.formulario form input {
+        width: 500px;
+    }
     div.formulario div.email, div.senha {
-        width: 20vw;
+        width: 400px;
     }
     .login {
         display: flex;
