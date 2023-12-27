@@ -95,6 +95,7 @@ div.formulario input.entrar {
     color: white;
     margin-bottom: 10px;
     border: none;
+    cursor: pointer;
     
 }
 div.formulario div.esqueci-senha{ 
