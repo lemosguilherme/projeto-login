@@ -26,7 +26,7 @@ body {
 div.imagem{
     background-color: black;
     height: 250px;
-    width: 400px;
+    width: 300px;
     background-image: url("../imagens/predio2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +38,7 @@ div.imagem{
 div.formulario {
     background-color: white;
     height: 350px;
-    width: 400px;  
+    width: 300px;  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +64,7 @@ p {
 div.formulario form input {
     border-radius: 5px;
     block-size: 30px;
-    width: 300px;
+    width: 200px;
     border: 1px solid black;
 }
 div.formulario div.email, div.senha {
