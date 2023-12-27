@@ -16,16 +16,13 @@
 }
 body {
     background-color: var(--cor2);
-    
-}
-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
-
 div.imagem{
     background-color: black;
     height: 150px;
