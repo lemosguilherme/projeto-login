@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
     div.imagem {
         height: 400px;
-        width: 400px;
+        width: 350px;
         border-radius: 0px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
     div.formulario {
         height: 400px;
-        width: 600px;
+        width: 550px;
         border-radius: 0px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
