@@ -38,7 +38,7 @@ section {
 div.imagem{
     background-color: black;
     height: 25vh;
-    width: 60vw;
+    width: 80vw;
     background-image: url("../imagens/predio2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,7 +50,7 @@ div.imagem{
 div.formulario {
     background-color: white;
     height: 40vh;
-    width: 60vw;  
+    width: 80vw;  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,6 +76,7 @@ div.formulario form input {
     block-size: 30px;
     width: 100%;
     border: 1px solid black;
+
     
 }
 div.formulario div.email, div.senha {
