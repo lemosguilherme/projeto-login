@@ -14,6 +14,7 @@
     --cor1: #49a09d;
     --cor2: #5f2c82;
 }
+
 body {
     background-color: var(--cor2);
     display: flex;
@@ -23,6 +24,7 @@ body {
     height: 100vh;
     
 }
+
 div.imagem{
     background-color: black;
     height: 150px;
