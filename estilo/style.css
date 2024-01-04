@@ -21,11 +21,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px 100px;
     height: 100vh;
     overflow-y: hidden;
     
 }
-
+main {
+    width: 100%;
+}
 div.imagem{
     background-color: black;
     height: 150px;

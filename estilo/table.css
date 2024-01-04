@@ -1,13 +1,19 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        margin: 0px 100px;
+    }
+    main {
+        width: 100%;
+    }
     div.imagem {
         height: 300px;
-        width: 500px; 
+        width: 100%; 
     }
     div.formulario {
         height: 400px;
-        width: 500px;
+        width: 100%;
     }
     div.formulario div.email, div.senha {
         width: 300px;
